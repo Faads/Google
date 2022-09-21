@@ -1,0 +1,100 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.Sverige {
+    background-color: #f2f2f2;
+    font-size: 14px;
+    padding: 1rem;
+
+}
+
+.borderBottom {
+    border-bottom: 1px solid #dadce0;
+}
+
+.footerFlex {
+    display: inline;
+    display: flex;
+    gap: 1rem;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+
+.firstFour {
+    display: flex;
+    gap: 1rem;
+}
+
+.inline {
+    display: inline;
+}
+
+.cheat {
+    width: 4rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+
+
+    
+
+}
+
+
+.textbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+input[type=text] {
+    border: 2px solid #f2f2f2;
+    border-radius: 4px;
+    width: 15rem;
+  }
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.login:hover {
+    background-color: rgb(20, 20, 128);
+}
+
+.login {
+    background-color: #1a73e8;
+    padding: 7px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding: 1rem;
+    /* align items center gör att alla elementen ligger i linje */
+    align-items: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+

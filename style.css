@@ -50,7 +50,33 @@
     
 
 }
+.textButtonsFlex {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+}
 
+.textButtons {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none; 
+}
+
+.textButtons:hover {
+    background-color: #e0e3e5;
+}
 
 .textbox {
     display: flex;
@@ -62,7 +88,8 @@
 input[type=text] {
     border: 2px solid #f2f2f2;
     border-radius: 4px;
-    width: 15rem;
+    width: 25rem;
+    padding-left: 0.5rem;
   }
 
 .link:hover {
@@ -70,7 +97,7 @@ input[type=text] {
 }
 
 .login:hover {
-    background-color: rgb(20, 20, 128);
+    background-color: #1969d2;
 }
 
 .login {
